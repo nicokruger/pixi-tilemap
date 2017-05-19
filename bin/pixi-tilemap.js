@@ -1,5 +1,6 @@
 var PIXI;
-(function (PIXI) {
+(function (_PIXI) {
+  PIXI = window.PIXI;
     var tilemap;
     (function (tilemap) {
         var CanvasTileRenderer = (function () {
@@ -26,7 +27,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 var PIXI;
-(function (PIXI) {
+(function (_PIXI) {
+  PIXI = window.PIXI;
     var tilemap;
     (function (tilemap) {
         var CompositeRectTileLayer = (function (_super) {
